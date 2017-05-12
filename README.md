@@ -7,4 +7,5 @@ M Architecture
  * Build Plugin
  * Router
  * About Image
+ * App Upgrade
  * ...
