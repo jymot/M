@@ -8,7 +8,7 @@ M Architecture
  * Router
  * About Image
  * App Upgrade
- * EventBus
+ * EventBus / RxBus
  * RxJava
  * DB / Storage
  * ...
