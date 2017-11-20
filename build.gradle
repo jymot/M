@@ -3,9 +3,10 @@
 buildscript {
     repositories {
         jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.android.tools.build:gradle:3.0.0'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -15,6 +16,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        google()
     }
 }
 
@@ -24,18 +26,18 @@ task clean(type: Delete) {
 
 ext {
     compileSdkVersion = 26
-    buildToolsVersion = "26.0.0"
+    buildToolsVersion = "26.0.2"
     minSdkVersion = 15
     targetSdkVersion = 26
-    sourceCompatibilityVersion = JavaVersion.VERSION_1_7
-    targetCompatibilityVersion = JavaVersion.VERSION_1_7
+    sourceCompatibilityVersion = JavaVersion.VERSION_1_8
+    targetCompatibilityVersion = JavaVersion.VERSION_1_8
 }
 
 ext.deps = [
-        appcompatv7       : 'com.android.support:appcompat-v7:25.3.1',
-        supportAnnotations: 'com.android.support:support-annotations:25.3.1',
-        design            : 'com.android.support:design:25.3.1',
-        recyclerviewv7    : 'com.android.support:recyclerview-v7:25.3.1',
+        appcompatv7       : 'com.android.support:appcompat-v7:26.1.0',
+        supportAnnotations: 'com.android.support:support-annotations:26.1.0',
+        design            : 'com.android.support:design:26.1.0',
+        recyclerviewv7    : 'com.android.support:recyclerview-v7:26.1.0',
 
         mhttp             : 'im.wangchao:mhttp:1.8.0'
 ]
