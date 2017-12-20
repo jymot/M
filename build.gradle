@@ -7,7 +7,9 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
-
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2' // add plugin
+        classpath 'im.wangchao:mrouter-plugin:0.1.0'
+        classpath 'im.wangchao:v2-build-plugin:0.1.2'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -28,7 +30,7 @@ ext {
     compileSdkVersion = 26
     buildToolsVersion = "26.0.2"
     minSdkVersion = 15
-    targetSdkVersion = 26
+    targetSdkVersion = 27
     sourceCompatibilityVersion = JavaVersion.VERSION_1_8
     targetCompatibilityVersion = JavaVersion.VERSION_1_8
 }

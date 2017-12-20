@@ -1,5 +1,5 @@
 # M
-M Architecture
+M Template
 
 ## TODO
  * [Net](https://github.com/motcwang/MHttp)
