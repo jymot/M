@@ -11,5 +11,6 @@ M Template
  * RxBus
  * RxJava
  * DB / Storage
+ * Dialog
  * [Catcher](https://github.com/motcwang/MCatcher)
  * ...
