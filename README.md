@@ -14,5 +14,5 @@ M Template
  * [Catcher](https://github.com/motcwang/MCatcher)
  * widget
    * Dialog
-   * RecycleView (Refresh & Load More)
+   * RecycleView (Refresh & Load More)
  * ...
