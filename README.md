@@ -2,6 +2,7 @@
 M Template
 
 ## TODO
+ * Jetpack
  * [Net](https://github.com/motcwang/MHttp)
  * [Utils](https://github.com/motcwang/MCommon)
  * [Build Plugin](https://github.com/motcwang/MV2Build)
@@ -10,7 +11,7 @@ M Template
  * App Upgrade
  * RxBus
  * RxJava
- * DB / Storage
+ * DB / Storage WCDB with room
  * [Catcher](https://github.com/motcwang/MCatcher)
  * widget
    * Dialog
